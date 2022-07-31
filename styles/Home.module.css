@@ -12,28 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: fadein 1.5s;
   /* border: 1px solid red; */
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes zoom {
-  0% {
-    transform: scale(0.95);
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
 }
 
 .introtext{
@@ -48,10 +27,19 @@
 
 .introtext p span{
   font-weight: bold;
+  color: #545454;
+}
+
+.introtext p{
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #aaaaaa;
 }
 
 .introtext a{
   text-decoration: none;
+  font-weight: bold;
+  color: #6786dd;
 }
 
 .recom img{
@@ -67,7 +55,7 @@
   border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
-  background-color: grey;
+  background-color: #f5f5f5;
   width: 95%;
   display: flex;
   flex-direction: column;
@@ -92,11 +80,15 @@
   font-family: 'Roboto', sans-serif;
   line-height: 1.5rem;
   margin-bottom: 4%;
+  font-weight: bold;
+  color: #aaaaaa;
 }
 
 .spotlight a{
   text-decoration: none;
   margin-bottom: 12%;
+  font-weight: bold;
+  color: #6786dd;
 }
 
 .analytics{
@@ -111,11 +103,12 @@
   flex-direction: column;
   padding-left: 0;
   padding-right: 0;
+  box-shadow: 1px 1px 42px 5px #f4f4f4;
 }
 
 .anal{
   margin-top: 13%;
-  margin-bottom: 13%;
+  margin-bottom: 7%;
   width: 30%;
   display: block;
   margin-left: auto;
@@ -131,17 +124,26 @@
 }
 
 .analtext{
-  width: 20%;
+  width: 22%;
   font-size: 100%;
   text-align: left;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5rem;
   margin-left: 25%;
   padding-top: 10%;
+  font-weight: bold;
+  color: #5b5b5b;
+}
+
+.analtext p{
+  margin-bottom: 1rem;
 }
 
 .analtext a{
   text-decoration: none;
+  font-size: smaller;
+  font-weight: 700;
+  color: black;
 }
 
 .analsub img{
@@ -158,14 +160,15 @@
   margin-right: auto;
   width: 95%;
   /* border: 1px solid red; */
-  background-color: rgb(216, 216, 216);
+  background: rgb(212,212,212);
+background: linear-gradient(-18deg, rgba(212,212,212,1) 0%, rgba(241,241,241,1) 75%);
   display: flex;
   flex-direction: column;
 }
 
 .comm{
   margin-top: 8%;
-  margin-bottom: 8%;
+  margin-bottom: 11%;
   width: 75%;
   display: block;
   margin-left: auto;
@@ -175,12 +178,18 @@
 .community p{
   width: 40%;
   margin-left: 17.2%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
+  font-weight: bold;
+  color: #828282;
 }
 
 .community a{
   margin-left: 17.2%;
   text-decoration: none;
+  margin-top: 4%;
+  font-size: smaller;
+  font-weight: 500;
+  color: black;
 }
 
 .commsub{
@@ -194,8 +203,9 @@
   margin-right: auto;
   width: 95%;
   /* border: 1px solid red; */
-  background-color: rgb(83, 83, 83);
+  background-color: rgb(255, 255, 255);
   display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.212);
   flex-direction: column;
 }
 
@@ -206,14 +216,15 @@
   margin-right: auto;
   width: 95%;
   /* border: 1px solid red; */
-  background-color: rgb(83, 83, 83);
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.212);
 }
 
 .del{
   margin-top: 12%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   width: 35%;
   display: block;
   margin-left: 8%;
@@ -221,7 +232,7 @@
 
 .hol{
   margin-top: 12%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   width: 35%;
   margin-left: 8%;
   display: block;
@@ -230,20 +241,34 @@
 .delsub{
   margin-left: 8%;
   width: 45%;
-  margin-bottom: 7%;
+  margin-bottom: 8%;
+  font-weight: bold;
+  color: #828282;
 }
 
 .holsub{
   margin-left: 8%;
   width: 45%;
-  margin-bottom: 7%;
+  margin-bottom: 8%;
+  font-weight: bold;
+  color: #828282;
+}
+
+.delsub p{
+  margin-bottom: 1rem;
+}
+
+.holsub p{
+  margin-bottom: 1rem;
 }
 
 .delsub a{
   text-decoration: none;
+  color: #2f52b2;
 }
 
 .holsub a{
+  color: #2f52b2;
   text-decoration: none;
 }
 
@@ -252,7 +277,8 @@
   border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(194, 194, 194);
+  background: rgb(91,91,91);
+background: linear-gradient(-30deg, rgba(91,91,91,1) 0%, rgba(221,221,221,1) 67%, rgba(249,249,249,1) 91%);
   width: 95%;
   display: flex;
   flex-direction: column;
@@ -264,7 +290,7 @@
 
 .sea{
   margin-top: 17%;
-  margin-bottom: 13%;
+  margin-bottom: 10%;
   width: 70%;
   display: block;
   margin-left: auto;
@@ -272,17 +298,21 @@
 }
 
 .seasons p{
-  width: 55%;
+  width: 47%;
   font-size: 100%;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5rem;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
+  font-weight: bold;
+  color: #e6e6e6fb;
 }
 
 .seasons a{
   text-decoration: none;
   margin-bottom: 12%;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .teams{
@@ -300,13 +330,22 @@
   width: 50%;
 }
 
+.teamtext h1{
+  font-size: x-large;
+  font-weight: bold;
+  color: #2b2b2b;
+}
+
 .teamtext p{
   width: 50%;
+  font-size: 85%;
+  margin-top: 0.8rem;
+  color: #3d3d3d;
 }
 
 .teams img{
   width: 20%;
-  padding-top: 7%;
+  padding-top: 9%;
   padding-bottom: 5%;
 }
 
@@ -321,23 +360,29 @@
 }
 
 .desc img{
-  width: 8%;
+  width: 5%;
   margin-left: 7% ;
   display: block;
   margin-top: 6%;
 }
 
 .desc p{
-  margin-top: 5%;
+  margin-top: 4%;
   margin-left: 7% ;
   width: 45%;
+  font-size: 85%;
+  color: #3d3d3d;
+  line-height: 1.3rem;
 }
 
 .desc a{
-  margin-top: 2%;
+  margin-top: 1.3%;
   margin-left: 7% ;
   margin-bottom: 6%;
   text-decoration: none;
+  color: black;
+  font-size: 75%;
+  font-weight: bold;
 }
 
 .footer{
@@ -349,7 +394,7 @@
 
 .footsub{
   display: flex;
-  width: 69%;
+  width: 80%;
   margin-left: 7%;
 }
 
@@ -360,4 +405,15 @@
 .footsub p{
   width: fit-content;
   margin-bottom: 35px;
+  width: 45%;
+  font-size: 85%;
+  color: #3d3d3d;
+}
+
+.footsub a{
+  text-decoration: none;
+  color: black;
+  font-size: 80%;
+  font-weight: bold;
+  line-height: 0px;
 }

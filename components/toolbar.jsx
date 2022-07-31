@@ -6,12 +6,12 @@ export const Toolbar = () => {
     return (
         <div className={styles.main}>
             <div className={styles.indiaarcade}>
-                <img src="/indiaarcade.png" alt="" />
+                <a href="#arcadee"><img src="/indiaarcade.png" alt="" /></a>
             </div>
             <div className={styles.options}>
             <div  className={styles.click}><a href="#overview">Overview</a></div>
-            <div onClick={() => router.push('/feed/1')} className={styles.click}>Why Arcade?</div>
-            <div className={styles.click}><a href="#teamsf">Connect</a></div>
+            <div className={styles.click}><a href="#teamsf">Arcade Team</a></div>
+            <div className={styles.click}><a href="#foot">Connect</a></div>
             </div>
         </div>
     );

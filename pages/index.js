@@ -1,11 +1,15 @@
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import {Toolbar} from "../components/toolbar.jsx";
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <div className={styles.container} id="arcadee">
-
+      <Head>
+        <title>Arcade</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Toolbar/>
 
       <div className={styles.intro}>

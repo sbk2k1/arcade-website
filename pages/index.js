@@ -89,6 +89,7 @@ export default function Home() {
       <div className={styles.desc} id="foot">
         <img src="/arcade.png" alt="" />
         <p>Imagine being in a Shopping Mall. All the people around you continuously engaging in shopping and activities. Picture the feeling of walking into a shop you are regular in or the joy of finding a hidden gem. How good would it be if you could experience all that from the comfort of your homes? Well, we just made that possible!</p>
+        <p className={styles.mobile}>Even though we are a two man team at this point, we aspire to work with a lot of talented individuals in the future. If are interested in working with us connect with us using the contact details provided below.</p>
         <a href="mailto:mailarcade.dev@gmail.com">mailarcade.dev@gmail.com</a>
       </div>
 
